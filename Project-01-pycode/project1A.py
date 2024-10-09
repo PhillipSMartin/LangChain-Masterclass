@@ -4,7 +4,7 @@
 from langchain.llms import OpenAI
 
 # instantiate an OpenAI LLM object, specifying our API key
-api_key = "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"
+api_key = "..."
 llm = OpenAI(
     openai_api_key=api_key
 )

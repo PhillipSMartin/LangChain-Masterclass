@@ -24,7 +24,7 @@ parser.add_argument("--task", type=str, default="return a list of numbers", help
 args = parser.parse_args()
 
 # instantiate an OpenAI LLM object, specifying our API key
-api_key = "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"
+api_key = "..."
 llm = OpenAI(
     openai_api_key=api_key
 )
